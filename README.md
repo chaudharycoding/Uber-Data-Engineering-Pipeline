@@ -42,13 +42,6 @@ The SQL query used for performing transformations on the data can be found in th
 - **ETL Script:** [load.py](./load.py) — This script handles the extraction and transformation of the data.
 - **BigQuery Load Script:** [load_bigquery.py](./load_bigquery.py) — This script uploads the transformed data to BigQuery for analysis.
 
-## How to Run
-1. Set up Google Cloud Storage and a Compute Instance on GCP.
-2. Upload the dataset (`uber_data.csv`) to Google Storage.
-3. Run the ETL pipeline by executing `load.py`.
-4. Use `load_bigquery.py` to load the processed data into BigQuery.
-5. Visualize the data using Looker Studio or any other preferred BI tool.
-
 ## Dataset Link
 The dataset used in this project can be downloaded from: [uber_data.csv](./data/uber_data.csv)
 
@@ -56,5 +49,4 @@ The dataset used in this project can be downloaded from: [uber_data.csv](./data/
 - [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [Mage Data Pipeline Tool](https://www.mage.ai/)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
