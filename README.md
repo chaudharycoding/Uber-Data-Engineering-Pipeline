@@ -6,7 +6,7 @@ This project aims to create a scalable data engineering pipeline for Uber data u
 ## Architecture
 The architecture of the project follows a modern data engineering approach, leveraging cloud services and automation tools.
 
-![Architecture]()
+
 ![architecture](https://github.com/user-attachments/assets/cfecc8f2-955f-46ab-8f22-2ebf5c88e6a1)
 
 ## Technology Stack
